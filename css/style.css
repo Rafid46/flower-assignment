@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Poppins&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: poppins;
+}
+/* first section starts */
+.banner_text{
+    padding: 90px;
+    padding-right: 0px;
+    padding-bottom: 90px;
+
+}
+.main_banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgba(229, 84, 115, 0.10);
+    /* padding: 90px; */
+    /* padding-bottom:0px; */
+    margin: ;
+}
+.section1_title{
+color: #5a4545;
+font-family:poppins;
+font-size: 70px;
+font-weight: 800;
+}
+.section1_description{
+color: rgba(106, 106, 106, 0.6);
+font-family:poppins;
+font-size: 18px;
+font-weight: 400;
+margin-top:10px;
+}
+.btn{
+color:aliceblue;
+font-size: 20px;
+padding: 20px 30px;
+border: none;
+border-radius: 5px;
+background: #fa6e8c;
+margin: 20px;
+margin-left: 0px;
+}
+.main_flower{
+    padding-top: 10px;
+    padding-bottom:0;
+    /* padding-bottom:0;
+    margin-top: 200px;
+    margin-bottom:0; */
+}
+.btn:hover{
+    color: rgb(151, 9, 9);
+    transition: 0.5s;
+}
+
+/* second section starts */
+.section2_title{
+    text-align: center;
+    font-size: 40px;
+    color: #794509;
+    font-weight:200px;
+    margin-top: 150px;
+}
+.section2_description{
+    text-align: center;
+    margin: 10px;
+}
+.flower_container{
+    display: flex;
+   justify-content: space-between;
+   text-align: center;
+    /* justify-content: space-between; */
+    /* height: 750px; */
+     /* margin: 5px 390px; */
+     /* align-items: center;
+    justify-content: space-around; 
+ */
+ margin:50px;
+ padding:30px;
+ 
+}
+.flower{
+    /* padding: 10px; */
+    /* gap: 50px; */
+     /* margin: 9px 170px;  */
+    /* width: 464px;
+    height: 538px; */
+    /* align-items: center; */
+    gap: 10px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    /* margin:100px; */
+   
+
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px; 
+    padding-bottom: 0px;
+    
+}
+figcaption{
+    padding: 50px;
+       margin-bottom:-100px;
+        color: #5c07fa;
+        text-decoration:underline;
+}
+    
