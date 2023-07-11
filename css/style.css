@@ -265,3 +265,36 @@ font-weight: 300;
     text-align: center;
     color: rgba(255, 255, 255, 0.40);
 }
+
+/* extra section */
+.exsec{
+        background-image: url(../img/rose.png);
+        width: 70%;
+        margin: auto;
+        height: 500px;
+        background-position: center;
+        background-repeat:no-repeat ;
+        background-size: cover;
+        border-radius: 8px;
+        margin-top:100px;
+        border-style: dashed;
+        border-width: 2px;
+        color: #7A4D05;
+
+}
+.ext_box{
+    padding: 130px;
+}
+.ext_title{
+    text-align:left;
+    font-size: 70px;
+    color:#7A4D05;
+
+}
+
+.ext_description{
+    font-size: 20px;
+    color: #515151;
+
+
+}
