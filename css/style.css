@@ -6,9 +6,10 @@
 }
 /* first section starts */
 .banner_text{
-    padding: 90px;
+    padding-left:40px;
     padding-right: 0px;
     padding-bottom: 90px;
+    padding-top:140px;
 
 }
 .main_banner{
@@ -18,10 +19,10 @@
     background-color:rgba(229, 84, 115, 0.10);
     /* padding: 90px; */
     /* padding-bottom:0px; */
-    margin: ;
+
 }
 .section1_title{
-color: #5a4545;
+color: #6f5454;
 font-family:poppins;
 font-size: 70px;
 font-weight: 800;
@@ -42,10 +43,13 @@ border-radius: 5px;
 background: #fa6e8c;
 margin: 20px;
 margin-left: 0px;
+cursor: pointer;
 }
 .main_flower{
     padding-top: 10px;
-    padding-bottom:0;
+    
+   align-self: flex-end;
+
     /* padding-bottom:0;
     margin-top: 200px;
     margin-bottom:0; */
@@ -69,16 +73,11 @@ margin-left: 0px;
 }
 .flower_container{
     display: flex;
-   justify-content: space-between;
-   text-align: center;
-    /* justify-content: space-between; */
-    /* height: 750px; */
+    justify-content: space-evenly;
      /* margin: 5px 390px; */
-     /* align-items: center;
-    justify-content: space-around; 
- */
- margin:50px;
- padding:30px;
+    margin:30px;
+    padding:30px;
+
  
 }
 .flower{
@@ -88,25 +87,62 @@ margin-left: 0px;
     /* width: 464px;
     height: 538px; */
     /* align-items: center; */
-    gap: 10px;
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;  
+    text-decoration: underline;
     /* margin:100px; */
    
 
 }
 .image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    align-self: flex-end;
     padding: 50px; 
     padding-bottom: 0px;
     
 }
-figcaption{
-    padding: 50px;
-       margin-bottom:-100px;
-        color: #5c07fa;
-        text-decoration:underline;
+
+.flower_img{
+    display: flex;
+    justify-content: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
 }
-    
+.center_flower{
+    align-self: center;
+}
+
+.hot_deal{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 8px;
+     background: rgba(244, 54, 95, 0.05);
+     margin-top: 150px;
+     padding: 30px;
+     text-align: center;
+}
+.section3_title{
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+span{
+    color: #fa6e8c;
+}
+.section3_description{
+       color: rgba(39, 39, 39, 0.60);
+       font-size: 18       px;
+       font-weight: 400;
+       padding-top: 10px;
+       padding-bottom: 10px;
+}
+.btn_sign{
+    align-items: center;
+    text-align: center;
+}
