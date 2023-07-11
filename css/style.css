@@ -271,7 +271,7 @@ font-weight: 300;
         background-image: url(../img/rose.png);
         width: 70%;
         margin: auto;
-        height: 500px;
+        height: 550px;
         background-position: center;
         background-repeat:no-repeat ;
         background-size: cover;
@@ -284,6 +284,7 @@ font-weight: 300;
 }
 .ext_box{
     padding: 130px;
+    padding-bottom: 0px;
 }
 .ext_title{
     text-align:left;
@@ -296,5 +297,10 @@ font-weight: 300;
     font-size: 20px;
     color: #515151;
 
-
+}
+.btn_brown{
+    background-color:#ac793e ;
+    border-style: dashed;
+    border-color: #623b0e;
+    border-width: 2px;
 }
