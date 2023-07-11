@@ -303,4 +303,7 @@ font-weight: 300;
     border-style: dashed;
     border-color: #623b0e;
     border-width: 2px;
+    display:inline;
+    padding:15px;
+    font-size: 18px;
 }
